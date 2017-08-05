@@ -1,0 +1,92 @@
+#container{
+    width: 800px;
+   
+    border: grey 1px solod;
+    height: 650px;
+    padding: 10px;
+    margin: 0 auto;
+    color:gray;
+    text-align: center;
+    font-family: cursive;
+    font-size: 54px
+}
+#container > div{
+    background-image: url(./images/card_back2.jpg);  
+    background-size: cover;
+    border: blue 1px solid;
+    width: 135px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    display: inherit;
+    
+    
+}
+body{
+    background-image: url(./images/background.png);
+    background-size: auto;
+}
+img { 
+  width: 100%;
+  height: 100%;
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+    color: dimgrey;
+    font-family: cursive;   
+}
+.reset{
+    margin-left: auto;
+    margin-right: auto;
+}
+#mem{
+    font-size: 86px;
+    color: rosybrown;
+}
+#gam{
+    font-size: 78px;
+    color:rosybrown;
+}
+.buttons{
+    display: block;
+    margin-left: 40%;   
+}
+.buttons2{
+    margin-left: 1%;
+}
+ #Level2, #p, .start, #stop{
+    color: white;
+    border: grey 1px solid;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+    background-color: darkorange;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.start1{
+    color: white;
+    border: grey 1px solid;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    background-color: darkorange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#points, #timer{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.fish{
+    height: 400px;
+    width: 400px;
+}
